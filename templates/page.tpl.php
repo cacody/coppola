@@ -76,39 +76,7 @@
 
 
 <section id="header">
-<div class="container">
-	<div class="col-md-12">
-      <div class="row logo-name-nav">
-        <?php if ($logo): ?>
-          <div class="col-xs-3 col-sm-3 col-md-2">
-	        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-	          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-	        </a>
-        </div>
-		<?php endif; ?>
-		
-		
-		
-        <div class="col-md-3 col-md-push-6">
-	      <div class="pull-right text-right">	
-	        <div class="page">
-		      <a href="#menu" id="site-menu-button">MENU 	
-			    <button class="hamburger hamburger--collapse" type="button">
-				  <span class="hamburger-box">
-				    <span class="hamburger-inner"></span>
-				  </span>
-				</button></a> 
-		    </div>
-		    
-	     </div>
-        </div>
-
-        <?php if ($site_name): ?>
-	      <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-3">
-		    <h1><?php print $site_name; ?></h1>
- 		  </div>
-		<?php endif; ?>
-      </div> <!-- /logo and nav row  -->
+header
 </div>
 
 
@@ -139,7 +107,37 @@ band6
 </section>
 
 <section id="footer">
-footer
+footer<br>
+<div class="container">
+	<div class="col-md-12">
+      <div class="row logo-name-nav">
+        <?php if ($logo): ?>
+          <div class="col-xs-3 col-sm-3 col-md-2">
+	        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+	          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+	        </a>
+        </div>
+		<?php endif; ?>
+        <div class="col-md-3 col-md-push-6">
+	      <div class="pull-right text-right">	
+	        <div class="page">
+		      <a href="#menu" id="site-menu-button">MENU 	
+			    <button class="hamburger hamburger--collapse" type="button">
+				  <span class="hamburger-box">
+				    <span class="hamburger-inner"></span>
+				  </span>
+				</button></a> 
+		    </div>
+		    
+	     </div>
+        </div>
+
+        <?php if ($site_name): ?>
+	      <div class="col-xs-12 col-sm-12 col-md-6 col-md-pull-3">
+		    <h1><?php print $site_name; ?></h1>
+ 		  </div>
+		<?php endif; ?>
+      </div> <!-- /logo and nav row  -->
 </section>
 
 
