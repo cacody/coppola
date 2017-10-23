@@ -67,6 +67,62 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.6.3/css/jquery.mmenu.all.min.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.6.3/js/jquery.mmenu.all.min.js"></script>
+
+<script type="text/javascript">
+         jQuery(document).ready(function( $ ) {
+            $("#menu").mmenu({
+               "extensions": [
+                  "effect-panels-zoom",
+                  "theme-dark"
+               ],
+               "offCanvas": {
+                  "position": "right"
+               },
+               "counters": true,
+               "navbars": [
+                  {
+                     "position": "top",
+                     "content": [
+                        "searchfield"
+                     ]
+                  },
+                  true,
+                  {
+                     "position": "bottom",
+                     "content": [
+                        "<a class='fa fa-envelope' href='#/'></a>",
+                        "<a class='fa fa-twitter' href='#/'></a>",
+                        "<a class='fa fa-facebook' href='#/'></a>"
+                     ]
+                  }
+               ]
+
+            });
+
+
+			var api = $('#menu').data('mmenu');
+
+			api.bind('opened', function () {
+			    console.log('opened');
+				$('.hamburger').toggleClass("is-active");
+
+			});
+
+			api.bind('closed', function () {
+				console.log('closed');
+				$('.hamburger').toggleClass("is-active");
+			});
+
+			});
+
+
+
+
+
+</script>
+
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
