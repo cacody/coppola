@@ -26,5 +26,6 @@ regions[page_bottom]    = 'Page bottom'
 
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/bootstrap3users.css
+stylesheets[all][] = hamburgers/dist/hamburgers.css
 scripts[] = js/script.js
 
