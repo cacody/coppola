@@ -1,0 +1,30 @@
+/**
+ * Place your custom styles here.
+ */
+
+/** Mobile first **/
+
+
+
+
+/* hide admin fieldset from posters in node create/edit screen */
+.opportunity-poster #bootstrap-panel--2 {
+	display: none;
+}
+
+
+
+
+.count-badge {
+  	display: inline-block;
+	border-radius: 9px;
+	background-color: red;
+	font-size:11px;
+	color: #fff;
+	margin-left: 5px;
+	padding:2px 4px 2px 4px;
+	font-weight:bold;
+}
+
+
+
