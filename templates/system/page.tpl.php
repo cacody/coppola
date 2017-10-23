@@ -76,7 +76,23 @@
 
 
 <section id="header">
-header
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row" id="mobile-header">
+					<div class="col-xs-2">
+						LOGO
+					</div>
+					<div class="col-xs-8">
+						SITE NAME
+					</div>
+					<div class="col-xs-2">
+						MENU
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 
@@ -108,21 +124,7 @@ band6
 
 <section id="footer">
 footer<br>
-<div class="container">
-	<div class="col-md-12">
-		<div class="row logo-name-nav">
-			<div class="pull-right text-right">	
-			    <div class="page">
-			      <a href="#menu" id="site-menu-button">MENU 	
-				    <button class="hamburger hamburger--collapse" type="button">
-					  <span class="hamburger-box">
-					    <span class="hamburger-inner"></span>
-					  </span>
-					</button></a> 
-			    </div>
-			</div>
-		</div>
-	</div> <!-- /logo and nav row  -->
+
 </section>
 
 
