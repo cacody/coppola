@@ -99,7 +99,7 @@
 </section>
 
 <section id="band1">
-band1
+band happy
 </section>
 
 <section id="band2">
